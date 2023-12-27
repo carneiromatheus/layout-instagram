@@ -24,11 +24,60 @@
     />
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav>
+        <section>
+          <ion-icon
+            class="logo-instagram-icon"
+            name="logo-instagram"
+          ></ion-icon>
+          <hr class="desktop-layout vertical-line" />
+          <img
+            class="desktop-layout logo-instagram-img"
+            src="./src/img/logo.png"
+            alt="logomarca do instagram"
+          />
+        </section>
+        <input
+          class="desktop-layout search-box"
+          type="text"
+          placeholder="Pesquisar"
+        />
+        <img
+          class="mobile-layout logo-instagram-img"
+          src="./src/img/logo.png"
+          alt="logomarca do instagram"
+        />
+        <ul class="navigation-menu">
+          <li class="navigation-menu-option-icon">
+            <ion-icon
+              class="navigation-menu-option-icon"
+              name="paper-plane-outline"
+            ></ion-icon>
+          </li>
+          <li class="desktop-layout navigation-menu-option-icon">
+            <ion-icon name="compass-outline"></ion-icon>
+          </li>
+          <li class="desktop-layout navigation-menu-option-icon">
+            <ion-icon name="heart-outline"></ion-icon>
+          </li>
+          <li class="desktop-layout navigation-menu-option-icon">
+            <ion-icon name="person-outline"></ion-icon>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <section class="page-container">
       <main></main>
-      <aside class="desktop-layout"></aside>
+      <aside class="sidebar"></aside>
     </section>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

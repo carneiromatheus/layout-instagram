@@ -6,15 +6,89 @@ html {
 body {
   display: flex;
   justify-content: center;
+  background-color: #fafafa;
+}
+
+ion-icon:hover {
+  cursor: pointer;
 }
 
 header {
   height: 5.4rem;
   width: 100dvw;
+  display: flex;
+  justify-content: center;
   position: fixed;
   top: 0;
-  right: 0;
-  background-color: lightblue;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 2.4rem #dbdbdb);
+}
+
+nav {
+  height: 100%;
+  width: min(100%, 935px);
+  padding: 0 4rem 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > section {
+  display: flex;
+}
+
+.logo-instagram-icon {
+  font-size: 2.2rem;
+}
+
+.vertical-line {
+  height: 2.2rem;
+  width: 1px;
+  margin: 0 1rem;
+  border: none;
+  border-left: 1px solid #dbdbdb;
+}
+
+.logo-instagram-img {
+  height: 2.9rem;
+  width: 10.3rem;
+}
+
+.logo-instagram-img:hover {
+  cursor: pointer;
+}
+
+.search-box {
+  height: 2.6rem;
+  width: 215px;
+  padding: 0 0.8rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  background-color: #fafafa;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.search-box::placeholder {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #979797;
+}
+
+.search-box:hover {
+  background-color: #f0f0f0;
+}
+
+.navigation-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-menu ion-icon {
+  font-size: 2.2rem;
 }
 
 .page-container {
@@ -25,7 +99,7 @@ header {
 }
 
 main {
-  height: 100dvh;
+  height: 200dvh;
   width: min(100%, 614px);
   margin: 8.8rem 0 3.4rem;
   background-color: lightgreen;
