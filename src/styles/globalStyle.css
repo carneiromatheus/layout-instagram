@@ -1,0 +1,40 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  height: 5.4rem;
+  width: 100dvw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: lightblue;
+}
+
+.page-container {
+  width: min(100%, 935px);
+  display: flex;
+  justify-content: center;
+  gap: 3.6rem;
+}
+
+main {
+  height: 100dvh;
+  width: min(100%, 614px);
+  margin: 8.8rem 0 3.4rem;
+  background-color: lightgreen;
+}
+
+aside {
+  height: 44.3rem;
+  width: 29.3rem;
+  position: sticky;
+  top: 8.8rem;
+  background-color: lightcoral;
+}

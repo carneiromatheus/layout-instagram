@@ -1,0 +1,15 @@
+.desktop-layout {
+  display: none;
+}
+
+@media (min-width: 934px) {
+  .desktop-layout {
+    display: initial;
+  }
+}
+
+@media (min-width: 613px) {
+  .mobile-layout {
+    display: none;
+  }
+}
