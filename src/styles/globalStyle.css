@@ -240,6 +240,28 @@ main {
   width: 2rem;
 }
 
+body > footer {
+  height: 5.4rem;
+  width: 100dvw;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 0.1rem solid #dbdbdb;
+  filter: drop-shadow(0 0 1rem #dbdbdb);
+}
+
+.footer-menu-mobile {
+  font-size: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 aside {
   height: 44.3rem;
   width: 29.3rem;
