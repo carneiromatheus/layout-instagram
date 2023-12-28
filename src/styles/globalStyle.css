@@ -28,7 +28,7 @@ header {
 
 nav {
   height: 100%;
-  width: min(100%, 935px);
+  width: min(100%, 93.5rem);
   padding: 0 4rem 0 2rem;
   display: flex;
   align-items: center;
@@ -45,10 +45,10 @@ nav > section {
 
 .vertical-line {
   height: 2.2rem;
-  width: 1px;
+  width: .1rem;
   margin: 0 1rem;
   border: none;
-  border-left: 1px solid #dbdbdb;
+  border-left: .1rem solid #dbdbdb;
 }
 
 .logo-instagram-img {
@@ -62,10 +62,10 @@ nav > section {
 
 .search-box {
   height: 2.6rem;
-  width: 215px;
+  width: 21.5rem;
   padding: 0 0.8rem;
-  border: 1px solid #e6e6e6;
-  border-radius: 6px;
+  border: .1rem solid #e6e6e6;
+  border-radius: 0.6rem;
   background-color: #fafafa;
   font-size: 1.6rem;
   font-weight: 500;
@@ -84,7 +84,7 @@ nav > section {
 
 .navigation-menu {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 
 .navigation-menu ion-icon {
@@ -92,7 +92,7 @@ nav > section {
 }
 
 .page-container {
-  width: min(100%, 935px);
+  width: min(100%, 93.5rem);
   display: flex;
   justify-content: center;
   gap: 3.6rem;
@@ -100,8 +100,8 @@ nav > section {
 
 main {
   height: 200dvh;
-  width: min(100%, 614px);
-  margin: 8.8rem 0 3.4rem;
+  width: min(100%, 61.4rem);
+  margin-bottom: 3.4rem;
   background-color: lightgreen;
 }
 
