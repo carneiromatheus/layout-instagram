@@ -13,8 +13,13 @@ b {
   font-weight: 500;
 }
 
-ion-icon:hover {
+ion-icon:hover,
+.logo-instagram-img:hover,
+.story:hover,
+.user:hover,
+.post > img:hover {
   cursor: pointer;
+  text-decoration-line: underline;
 }
 
 body > header {
@@ -59,10 +64,6 @@ nav > section {
 .logo-instagram-img {
   height: 2.9rem;
   width: 10.3rem;
-}
-
-.logo-instagram-img:hover {
-  cursor: pointer;
 }
 
 .search-box {
@@ -131,9 +132,6 @@ main {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-}
-
-.story:hover {
   cursor: pointer;
 }
 
