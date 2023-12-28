@@ -9,11 +9,15 @@ body {
   background-color: #fafafa;
 }
 
+b {
+  font-weight: 500;
+}
+
 ion-icon:hover {
   cursor: pointer;
 }
 
-header {
+body > header {
   height: 5.4rem;
   width: 100dvw;
   display: flex;
@@ -23,7 +27,8 @@ header {
   left: 0;
   z-index: 1;
   background-color: #ffffff;
-  filter: drop-shadow(0 0 2.4rem #dbdbdb);
+  border: 0.1rem solid #dbdbdb;
+  filter: drop-shadow(0 0 1rem #dbdbdb);
 }
 
 nav {
@@ -99,11 +104,9 @@ nav > section {
 }
 
 main {
-  height: 200dvh;
   width: min(100%, 61.4rem);
   margin-bottom: 3.4rem;
   position: relative;
-  background-color: lightgreen;
 }
 
 .story-bar {
@@ -113,6 +116,7 @@ main {
   gap: 0.2rem;
   padding-left: 1.2rem;
   overflow: scroll;
+  filter: drop-shadow(0 0 1rem #dbdbdb);
 }
 
 .story-bar::-webkit-scrollbar {
@@ -159,10 +163,89 @@ main {
   right: 0;
 }
 
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.post {
+  border: 0.1rem solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 1rem #dbdbdb);
+}
+
+.post > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  padding: 1.7rem;
+  background-color: #fff;
+}
+
+.profile-post {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.profile-post > img {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.profile-post > h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.post > img {
+  width: 100%;
+}
+
+.post > footer {
+  height: 7.6rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.reaction-icons {
+  padding: 0 1.5rem;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reaction-icons > div {
+  display: flex;
+  gap: 1.3rem;
+}
+
+.who-liked {
+  padding: 0 1.5rem;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.who-liked > img {
+  height: 2rem;
+  width: 2rem;
+}
+
 aside {
   height: 44.3rem;
   width: 29.3rem;
   position: sticky;
   top: 8.8rem;
+  border: 0.1rem solid #dbdbdb;
+  filter: drop-shadow(0 0 1rem #dbdbdb);
   background-color: lightcoral;
 }

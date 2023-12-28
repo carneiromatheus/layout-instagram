@@ -15,8 +15,12 @@
 
   .story-bar {
     background-color: #fff;
-    border-radius: .3rem;
-    border: .1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    border: 0.1rem solid #dbdbdb;
+  }
+
+  .feed {
+    margin-top: 2.4rem;
   }
 }
 
