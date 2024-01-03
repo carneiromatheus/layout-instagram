@@ -10,14 +10,15 @@ body {
 }
 
 b {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 ion-icon:hover,
 .logo-instagram-img:hover,
 .story:hover,
 .user:hover,
-.post > img:hover {
+.post > img:hover,
+.clickable:hover {
   cursor: pointer;
   text-decoration-line: underline;
 }
@@ -74,7 +75,7 @@ nav > section {
   border-radius: 0.6rem;
   background-color: #fafafa;
   font-size: 1.6rem;
-  font-weight: 500;
+  font-weight: 600;
   color: #000;
 }
 
@@ -198,7 +199,7 @@ main {
 
 .profile-post > h1 {
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .post > img {
@@ -262,11 +263,77 @@ body > footer {
 }
 
 aside {
-  height: 44.3rem;
-  width: 29.3rem;
+  height: 45rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
   position: sticky;
-  top: 8.8rem;
-  border: 0.1rem solid #dbdbdb;
-  filter: drop-shadow(0 0 1rem #dbdbdb);
-  background-color: lightcoral;
+  top: 11rem;
+}
+
+aside > header {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+aside > header > div > h2 {
+  color: #8e8e8e;
+}
+
+.suggestions > header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+}
+
+.suggestions > header > h1 {
+  color: #8e8e8e;
+}
+
+.profiles-suggestions > .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: 1.7rem 0;
+}
+
+.profiles-suggestions > .profile > div {
+  display: flex;
+  gap: 1.7rem;
+  align-items: center;
+}
+
+.profiles-suggestions > .profile h2 {
+  color: #8e8e8e;
+}
+
+.profiles-suggestions > .profile h3 {
+  color: #139EF2;
+}
+
+aside > footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  font-size: 1.1rem;
+  color: #8e8e8e;
+}
+
+aside > footer > ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.with-bullet {
+  list-style: disc inside;
 }
