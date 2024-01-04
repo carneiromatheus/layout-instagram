@@ -77,6 +77,7 @@ nav > section {
   font-size: 1.6rem;
   font-weight: 600;
   color: #000;
+  transition: background-color 300ms;
 }
 
 .search-box::placeholder {
@@ -207,12 +208,13 @@ main {
 }
 
 .post > footer {
-  height: 7.6rem;
+  height: 20rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   gap: 1rem;
+  padding-top: 1rem;
 }
 
 .reaction-icons {
@@ -238,6 +240,63 @@ main {
 .who-liked > img {
   height: 2rem;
   width: 2rem;
+}
+
+.container-comments {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+}
+
+.container-comments > p {
+  color: #979797;
+}
+
+.comment-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-line > ion-icon {
+  font-size: 1.5rem;
+  padding-right: 0.8rem;
+  transition: color 300ms;
+}
+
+.comment-line > ion-icon:hover {
+  color: #8e8e8e;
+}
+
+.comment {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.input-comments > input {
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.4rem;
+  border: 0;
+  border-bottom: 0.1rem solid #9797977f;
+  outline: none;
+  position: relative;
+}
+
+.input-comments > p {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  color: #b2dffc;
+  transition: color 300ms;
+}
+
+.input-comments > p:hover {
+  color: #0095f6;
+  cursor: pointer;
 }
 
 body > footer {
@@ -315,7 +374,7 @@ aside > header > div > h2 {
 }
 
 .profiles-suggestions > .profile h3 {
-  color: #139EF2;
+  color: #139ef2;
 }
 
 aside > footer {
